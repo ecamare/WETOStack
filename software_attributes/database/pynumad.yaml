@@ -7,7 +7,7 @@ primary_uses:
 active_funding: true
 development_status: new_features
 programming_language: python
-license_type: 3-clause BSD License 
+license_type: bsd-3-clause
 data_collection_methods:
 - modeling
 - laboratory
@@ -24,7 +24,7 @@ time_domain:
 - steady
 - dynamic
 loads: true
-governing_equations:
+tags:
 - Elasticity theory
 - Euler bernoulli beam theory
 - Timoshenko beam theory
@@ -36,10 +36,8 @@ supported_platforms:
 - windows
 - macos
 - linux
-package_manager:
-- n/a
-package_manager_url:
-- n/a
+# package_manager:
+# package_manager_url:
 installation_complexity: 4
 
 # Documentation
@@ -58,8 +56,7 @@ project_coverage: 6
 # Testing
 testing_framework: true
 continuous_testing: true
-regression_test_coverage: 70
-unit_test_coverage: 20
+test_coverage: 70
 test_documentation: false
 performance_tests: false
 
@@ -75,10 +72,9 @@ filetypes:
 - yaml
 - csv
 file_structure_stability: in_development
-downstream_integrations:
+dependencies:
 - - openfast
   - indirect
-dependencies:
 
 # # Community Health
 # open_issues: 0..N
